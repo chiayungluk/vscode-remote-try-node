@@ -3,8 +3,6 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-'use strict';
-
 const express = require('express');
 
 // Constants
@@ -14,7 +12,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-	res.send('Hello remote world!\n');
+  res.send('Hello remote world!\n');
 });
 
 app.listen(PORT, HOST);
