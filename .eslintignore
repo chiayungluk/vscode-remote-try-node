@@ -1,0 +1,19 @@
+# Ignore artifacts:
+build
+dist
+coverage
+
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+
+.vscode/
+.devcontainer/
+.husky/
+.eslintignore
+prettierignore
+.eslintrc.json
+package.json
+package-lock.json
+LICENSE

@@ -1,0 +1,17 @@
+# Ignore artifacts:
+build
+coverage
+
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+
+.vscode/
+.devcontainer/
+.husky/
+.eslintignore
+.prettierignore
+package.json
+package-lock.json
+LICENSE
